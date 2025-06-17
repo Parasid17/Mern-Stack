@@ -81,4 +81,36 @@
 
 
 
-// p8 
+// p8 Replace all Even numbers with 0
+// let arr = [[1, 2], [3, 4], [5, 6]];
+// for (let i = 0; i < arr.length; i++) {
+//     for (let j = 0; j < arr[i].length; j++) {
+//         if (arr[i][j] %2 == 0) {
+//             arr[i][j] = 0;
+//         }
+//     }
+// }
+// console.log(arr);
+
+
+
+
+// p9 Count how many old numbers are there:
+// let arr = [[2, 5], [7, 8], [9, 12]];
+// let count = 0;
+// for (let i = 0; i < arr.length; i++) {
+//     for (let j = 0; j < arr[i].length; j++) {
+//         if (arr[i][j] %2 == 1) {
+//             count++
+//         }
+//     }
+// }
+// console.log(`${count}`);
+
+
+
+
+// p10 Add a new array:
+// let students = [["Amit", "Neha"], ["Jay", "Riya"]];
+// students.push(["Pooja", "Simran"]);
+// console.log(students);
