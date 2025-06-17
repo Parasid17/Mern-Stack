@@ -1,0 +1,201 @@
+// Practice Questions - 29/05/2025
+
+// P1 
+// let a = 10;
+// let b = 5;
+// let c = 10;
+
+// console.log(a === c);   // true
+
+
+// P2
+// let x = 7;
+// x += 3;     // x = x + 3 = 7 + 3 = 10
+
+// console.log(x == 10);    // true
+
+
+// P3
+// let a = 20;
+// let result = (a > 15 && a < 30);    // true && true
+// console.log(result);     // true
+
+
+
+// P4
+// let score = 45;
+// score -= 5;     // score = 45 - 5 = 40
+// console.log(score >= 50);     // false
+
+
+// P5
+// let isActive = false;
+// console.log(!isActive);    // true
+
+
+
+// P6
+// let x = 5;
+// let y = 8;
+// let output = (x == 5 || y == 10);     // true || false
+// console.log(output);     //true
+
+
+
+// P7
+// let x = 3;
+// x *= 2;      // x = 3 * 2 = 6
+// let result = (x !== 6);    // 6 strictly not equal to 6
+// console.log(result);      // false
+
+
+
+// P8
+// let a = 12;
+// let b = 4;
+// let result = (a < 10 || b > 2);    // false || true
+// console.log(result);      // true
+
+
+
+// P9
+// let marks = 33;
+// marks += 2;      // marks = 33 + 2 = 35
+// console.log(marks < 35 && marks > 30);    // false && true = false
+
+
+
+// P10
+// let val = 15;
+// val -= 5;      // val = 15 - 5 = 10
+// console.log(val == 10 && val !== "10");     // true && true(how) = true ............. (Ask Doubt)
+
+
+
+// P11
+// let num = 50;
+// num -= 20;      // num = 50 - 20 = 30
+// console.log(num === 30);     // true   // will check both value and datatype
+
+
+// P12
+// let x = 8;
+// x += 2;      // x = 8 + 2 = 10;
+// console.log(x > 5 && x < 11);     // true && true = true
+
+
+// P13
+// let status = "active";
+// console.log(status !== "inactive");     // true
+
+
+// P14
+// let price = 100;
+// price *= 0.5;       // price = 50;
+// console.log(price < 80 || price == 50);    // true || true = true
+
+
+// P15
+// let a = 5;
+// let b = 10;
+// console.log(a > b && b > 0);   // false && true = false
+
+
+// P16
+// let isLoggedIn = true;
+// console.log(!isLoggedIn);    // false
+
+
+
+// P17
+// let x = 3;
+// x += 7;       // x = 3 + 7 = 10;
+// console.log(x == 10 && x !== "10");    // true && true = true
+
+
+
+// P18
+// let marks = 80;
+// console.log(marks >= 50 && marks <= 100);     // true && true = true
+
+
+
+// P19
+// let temp = 0;
+// console.log(temp == 0 || temp > 100);    // true || true = true
+
+
+// P20
+// let score = 90;
+// score -= 30;      // score = 60
+// console.log(score === 60);     // true
+
+
+
+// P21
+// let a = 6;
+// let b = 2;
+// a /= b;    // a = 6/2 = 3
+// console.log(a == 3);   // true
+
+
+
+// P22
+// let age = 25;
+// console.log(age < 18 || age >= 21);     // false || true = true
+
+
+// P23
+// let points = 0;
+// points += 10;     // points = 10
+// console.log(points != 5);    // true
+
+
+
+// P24
+// let a = 10;
+// let b ="10";
+// console.log(a == b && a === b);   // true && false = false
+
+
+
+// P25
+// let p = 4;
+// let q = 8;
+// console.log(p * 2 == q && q - p == 4);    // true (8 == 8) && true (4 == 4) = true
+
+
+
+// P26
+// let isMember = false;
+// let age = 17;
+// console.log(!isMember || age < 18);    // true || true = true
+
+
+
+// P27
+// let discount = 20;
+// discount -= 5;       // discount = 15
+// console.log(discount === 15);    // true
+
+
+
+// P28
+// let x = 10;
+// let y = 20;
+// let z = 30;
+// console.log(x < y && y < z);   // true && true = true
+
+
+
+// P29
+// let n = 9;
+// n += 1;      // n = 10
+// console.log(n !== 10);     // false
+
+
+
+// P30
+// let a = 100;
+// a /= 10;       // a = 10
+// console.log(a > 5 && a < 15);    // true && true = true
