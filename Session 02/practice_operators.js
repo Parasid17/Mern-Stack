@@ -7,13 +7,11 @@
 
 // console.log(a === c);   // true
 
-
 // P2
 // let x = 7;
 // x += 3;     // x = x + 3 = 7 + 3 = 10
 
 // console.log(x == 10);    // true
-
 
 // P3
 // let a = 20;
