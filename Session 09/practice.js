@@ -1,6 +1,7 @@
-// Arrays: Practice
+// Arrays Practice Qquestions:-
 
-// p1 Sum of All elements:
+// ************************************************************************************
+// P1 Sum of All elements:
 
 // Using for loop
 // function SumOfAllElem(arr) {
@@ -39,8 +40,8 @@
 
 
 
-
-// p2 Find Maximum Element:
+// ************************************************************************************
+// P2 Find Maximum Element:
 
 // function MaxElem (arr) {
 //     let max = arr[0];
@@ -56,9 +57,8 @@
 
 
 
-
-
-// p3 Count Even Numbers:
+// ************************************************************************************
+// P3 Count Even Numbers:
 
 // Using for of
 // function CountEvenNum (arr) {
@@ -88,8 +88,8 @@
 
 
 
-
-// p4 Reverse an Array:
+// ************************************************************************************
+// P4 Reverse an Array:
 // function reversearr (arr) {
 //     let newarr = [];
 //     for (let i = arr.length - 1; i >= 0; i--) {
@@ -102,8 +102,8 @@
 
 
 
-
-// p5 Check if Array contains Element:
+// ************************************************************************************
+// P5 Check if Array contains Element:
 
 // Using for loop
 // function CheckElement (arr, num) {
@@ -133,10 +133,8 @@
 
 
 
-
-
-// p6 Find the Lenght of an Array:
-
+// ************************************************************************************
+// P6 Find the Lenght of an Array:
 // Method 1
 // let arr = [4, 5, 6];
 // console.log(arr.length);
@@ -150,9 +148,8 @@
 
 
 
-
-// p7 Get the First element of array:
-
+// ************************************************************************************
+// P7 Get the First element of array:
 // function firstelem (arr) {
 //     return arr[0];
 // }
@@ -161,9 +158,8 @@
 
 
 
-
-// p8 Get the Last element of array:
-
+// ************************************************************************************
+// P8 Get the Last element of array:
 // function LastElem (arr) {
 //     return arr[arr.length - 1];
 // }
@@ -172,8 +168,8 @@
 
 
 
-
-// p9 Filter Numbers greater than 5:
+// ************************************************************************************
+// P9 Filter Numbers greater than 5:
 
 // Using for loop
 // function Numgrtthan5 (arr) {

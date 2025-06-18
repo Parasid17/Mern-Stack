@@ -14,6 +14,7 @@
 // To print the whole array
 // console.log(`${marks}`);
 
+
 // To access individual element in an array.   OR Traversing Array
 // for (let i = 0; i < marks.length; i++) {
 //     console.log(`Element at index ${i} is ${marks[i]}`);
@@ -31,6 +32,7 @@
 //Ans: No
 // In Array
 // console.log(`${marks[-1]}`);     // undefined
+
 
 // In String
 // let str = "abc";
@@ -197,11 +199,10 @@
 
 
 
-
-
+// Questions:-
 // Even numbers form an array
-let arr = [2, 4, 5, 7, 8, 13];
-let n = arr.length;
+// let arr = [2, 4, 5, 7, 8, 13];
+// let n = arr.length;
 // let str = "";
 // function EvenNumArr(arr, n) {
 //     for (let i = 0; i < n; i++) {
@@ -215,17 +216,17 @@ let n = arr.length;
 
 
 
-
+// Which one's will print
 // let a = 10;
 // var b = 20;
 
 // function random() {
-//     console.log("1", a);
-//     console.log("2", b);
+//     console.log("1", a);   // error
+//     console.log("2", b);   // 20
 
 //     let a = 30;
 //     var b = 45;
-//     console.log("3", a);
-//     console.log("4", b);
+//     console.log("3", a);   // error
+//     console.log("4", b);   // 45
 // }
 // random();

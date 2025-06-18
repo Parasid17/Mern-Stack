@@ -1,6 +1,7 @@
-// Arrays: Practice continued
+// Arrays Practice Questions:- (continued)
 
-// p10 Double Each Element in Array
+// ************************************************************************************
+// P10 Double Each Element in Array
 // let arr = [1, 2, 3];
 // let arr2 = [];
 // for (let i = 0; i < arr.length; i++) {
@@ -25,7 +26,9 @@
 
 
 
-// p1 Print All Elements ussing forEach
+// New Question Set:-
+// ************************************************************************************
+// P1 Print All Elements using forEach
 // let arr = [10, 20, 30];
 
 // arr.forEach((elem) => {
@@ -42,7 +45,8 @@
 
 
 
-// p2 Double Each Element using map
+// ************************************************************************************
+// P2 Double Each Element using map
 // let arr = [1, 2, 3];
 // let newarr = arr.map((elem) => {
 //     return elem * 2;
@@ -62,7 +66,8 @@
 
 
 
-// p3 Get only even numbers using filter
+// ************************************************************************************
+// P3 Get only even numbers using filter
 // function evennum(arr) {
 //     let newarr = arr.filter((elem) => {
 //         return elem%2 == 0;
@@ -74,7 +79,8 @@
 
 
 
-// p4 Add "Hi" before each name using map
+// ************************************************************************************
+// P4 Add "Hi" before each name using map
 // function addHi(arr) {
 //     let newarr = arr.map((elem) => {
 //         return `Hi ${elem}`;
@@ -86,7 +92,8 @@
 
 
 
-// p5 Count positive numbers using forEach
+// ************************************************************************************
+// P5 Count positive numbers using forEach
 // function countPositive(arr) {
 
 //     let count = 0;
@@ -105,8 +112,8 @@
 
 
 
-
-// p6 Convert All Strings to Uppercase using map
+// ************************************************************************************
+// P6 Convert All Strings to Uppercase using map
 // function Uppercase(arr) {
 
 //     let newarr = arr.map((elem) => {
@@ -119,8 +126,8 @@
 
 
 
-
-// p7 Find all numbers greater than 50 using filter
+// ************************************************************************************
+// P7 Find all numbers greater than 50 using filter
 // function Greaterthan50(arr) {
 //     let newarr = arr.filter((num) => {
 //         return num > 50;
@@ -132,8 +139,8 @@
 
 
 
-
-// p8 Print each element with its index using forEach
+// ************************************************************************************
+// P8 Print each element with its index using forEach
 // function ElemwithIndex(arr) {
 //     arr.forEach((elem, index) => {
 //         console.log(`Element: ${elem} , Index: ${index}`);
@@ -144,8 +151,8 @@
 
 
 
-
-// p9 Add 10 to each number using map
+// ************************************************************************************
+// P9 Add 10 to each number using map
 // function add10(arr) {
 //     let newarr = arr.map((elem) => {
 //         return elem + 10;

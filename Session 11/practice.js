@@ -1,19 +1,22 @@
 // Nested Arrays Practice Questions:-
- 
-// p1 Access a value: 40
+
+// ************************************************************************************
+// P1 Access a value: 40
 // let arr = [[10, 20], [30, 40], [50, 60]];
 // console.log(arr[1][1]);       // 40
 
 
 
-// p2 Change a value: 90 to 50
+// ************************************************************************************
+// P2 Change a value: 90 to 50
 // let arr = [[70, 80], [90, 100]];
 // arr[1][0] = 50;
 // console.log(arr);
 
 
 
-// p3 Print All values(row by row):
+// ************************************************************************************
+// P3 Print All values(row by row):
 // let arr = [[1, 2], [3, 4], [5, 6]];
 // for (let i = 0; i < arr.length; i++) {
 //     for (let j = 0; j < arr[i].length; j++) {
@@ -23,7 +26,8 @@
 
 
 
-// p4 Count total elements:
+// ************************************************************************************
+// P4 Count total elements:
 // let arr = [[1, 2, 3], [4, 5], [6]];
 // nested loop
 // let count = 0;
@@ -34,7 +38,6 @@
 // }
 // console.log(count);
 
-
 // single loop
 // for (let i = 0; i < arr.length; i++) {
 //     count += arr[i].length;
@@ -43,8 +46,8 @@
 
 
 
-
-// p5 Sum of all elements
+// ************************************************************************************
+// P5 Sum of all elements:
 // let arr = [[2, 4], [6, 8], [10, 12]];
 // let sum = 0;
 // for (let i = 0; i < arr.length; i++) {
@@ -56,8 +59,8 @@
 
 
 
-
-// p6 Flatten the Nested Array
+// ************************************************************************************
+// P6 Flatten the Nested Array:
 // let nested = [[1, 2], [3, 4], [5, 6]];
 // let arr = [];
 // for (let i = 0; i < nested.length; i++) {
@@ -68,12 +71,13 @@
 // console.log(arr);
 
 
-// can also use flat()
+// Can also use flat()
 // console.log(nested.flat());
 
 
 
-// p7 Get first element of each inner array
+// ************************************************************************************
+// P7 Get first element of each inner array:
 // let arr = [[10, 20], [30, 40], [50, 60]];
 // for (let i = 0; i < arr.length; i++) {
 //     console.log(arr[i][0]);
@@ -81,7 +85,8 @@
 
 
 
-// p8 Replace all Even numbers with 0
+// ************************************************************************************
+// P8 Replace all Even numbers with 0:
 // let arr = [[1, 2], [3, 4], [5, 6]];
 // for (let i = 0; i < arr.length; i++) {
 //     for (let j = 0; j < arr[i].length; j++) {
@@ -94,8 +99,8 @@
 
 
 
-
-// p9 Count how many old numbers are there:
+// ************************************************************************************
+// P9 Count how many old numbers are there:
 // let arr = [[2, 5], [7, 8], [9, 12]];
 // let count = 0;
 // for (let i = 0; i < arr.length; i++) {
@@ -109,8 +114,8 @@
 
 
 
-
-// p10 Add a new array:
+// ************************************************************************************
+// P10 Add a new array:
 // let students = [["Amit", "Neha"], ["Jay", "Riya"]];
 // students.push(["Pooja", "Simran"]);
 // console.log(students);

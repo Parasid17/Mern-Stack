@@ -31,21 +31,22 @@
 
 
 
-
 // Logical Operators:-
-// &&
+// &&  (AND)
 // console.log(true && true);
 // console.log(true && false);
 // console.log(false && false);
 // console.log(false && true);
 
-// ||
+
+// ||  (OR)
 // console.log(true || true);
 // console.log(true || false);
 // console.log(false || false);
 // console.log(false || true);
 
-// !
+
+// !  (NOT)
 // console.log(!true);
 // console.log(!false);
 
@@ -55,9 +56,9 @@
 
 
 
-console.log(5 == 5);     // true
-console.log(5 === 5);    // true
-console.log(5 === "5");  // false
-console.log(5 != 5);     // false
-console.log(5 != "5");   // false
-console.log(5 !== "5");  // true
+// console.log(5 == 5);     // true
+// console.log(5 === 5);    // true
+// console.log(5 === "5");  // false
+// console.log(5 != 5);     // false
+// console.log(5 != "5");   // false
+// console.log(5 !== "5");  // true
