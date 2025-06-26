@@ -104,3 +104,37 @@
 //         }
 //     }
 // }
+
+
+
+// ************************************************************************************
+// 90 Degree Rotation: always n x n matrix
+// Input ->
+// 1 2 4
+// 2 3 5
+// 6 7 8
+// Output ->
+// 6 2 1
+// 7 3 2
+// 8 5 4
+
+// let arr = [
+//     [1, 2, 4],
+//     [2, 3, 5],
+//     [6, 7, 8]
+// ];
+
+// function Deg90Rotation (arr) {
+//     let mat = []
+//     for (let i = 0; i < arr.length; i++) {
+//         mat.push([]);
+//     }
+
+//     for (let i = 0; i < arr.length; i++) {
+//         for (let j = 0; j < arr[i].length; j++) {
+//             mat[j].unshift(arr[i][j]);
+//         }
+//     }
+//     return mat;
+// }
+// console.log(Deg90Rotation(arr));
