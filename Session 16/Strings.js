@@ -1,53 +1,61 @@
-// Strings:-   24/06/2025
+// Strings:-   30/06/2025
 
-// Ways to define string:
-// let name = "Ram";
-// let sentence = `Hi, ${name}`;
+// let str = "accio";
 
-// console.log(sentence);
-// console.log(typeof name);    // string
+// ==============================================================================================
+// Accessing character:
+// console.log(str[0]);
+// console.log(str.charAt(0));
 
-// // To get the length
-// console.log(name.length);
-// let stnc = "helloworld";
-// console.log(stnc.length);       // 10
-// let stnc2 = "hello world   ";
-// console.log(stnc2.length);      // 14 -> also counts the spaces
+// ==============================================================================================
+// Length:
+// console.log(str.length);
 
-
-// // Indexes
-// console.log(name.charAt(1));
-// console.log(name.lastIndexOf('m'));
-
-
-// let str = new String("Hello World");
-// console.log(typeof str);     // object
-
-
-
-// Substring:
-// let str1 = "hasjvdmanwhatiswrongwithyou";
-// console.log(str1.includes("man"));
-// console.log(str1.endsWith("with"));
-
-// function endswithstr(str1,str){
-//     let len1 = str.length;
-//     let len2 =  str1.length;
-//     let start = len2-len1;
-//     let str2 = "";
-
-//     for(let i = start ; i <len2 ; i++){
-//         str2 = str2+str1.charAt(i);
-//     }
-//     if(str2 == str){
-//         return true;
-//     }
+// ==============================================================================================
+// Accessing individually:
+// Using for loop -
+// for (let i = 0; i < str.length; i++) {
+//     console.log(str[i]);
 // }
-// let a = "hello world its party time";
-// let b = "time";
-// console.log(endswithstr(a,b));
 
 
+// Using for of -
+// for (let elem of str) {
+//     console.log(elem);
+// }
+
+
+// ==============================================================================================
+// Index accessing:
+// console.log(str.indexOf("c"));
+// console.log(str.lastIndexOf("c"));
+
+
+// ==============================================================================================
+// Upper and Lower Case:
+// console.log(str.toUpperCase());
+// console.log(str.toLowerCase());
+
+
+// ==============================================================================================
+// Other In-built functions:
+// concat():
+// console.log(str.concat(" job"));
+
+// ----------------------------------------------------------------------------------------------
+// trim():
+// let str1 = "   accio   ";
+// console.log(str.trim());
+
+// ----------------------------------------------------------------------------------------------
+// startswith():
+// console.log(str.startsWith("a"));
+
+
+
+// ----------------------------------------------------------------------------------------------
+// endswith():
+// console.log(str.endsWith("c"));
 
 // function endsWith(str, substr){
 //     for(let i=substr.length-1 , j = str.length-1; i>=0 && j>=0; i--,j--){
@@ -59,10 +67,14 @@
 // }
 // console.log(endsWith("hello world its party time", "time"));
 
+// ----------------------------------------------------------------------------------------------
+// includes():
+// console.log(str.includes("ac"));
 
-// Split
-// let path = "a.b.c..d.s";
-// console.log(path.split("."));
+// ----------------------------------------------------------------------------------------------
+// split():
+// let str = "Hello world";
+// console.log(str.split(" "));
 
 // function Splitstr (path, splt) {
 //     let str = [];
@@ -79,16 +91,11 @@
 // console.log(Splitstr("a.b..c.d...e", "."));
 // console.log(split1("a.b,,c", ","));
 
+// ----------------------------------------------------------------------------------------------
+// slice():
+// console.log(str.slice(0,3));        // 3 included nahi hai
 
-// let str = "Accio job";
-// console.log(str.substring(2,7));
-
-
-// let sentence = "Hello ji kaise ho saare";
-// let words = sentence.split(" ");
-// console.log(words);
-
-// console.log(words.);
-
-
-// console.log(words.join(' '));
+// ----------------------------------------------------------------------------------------------
+// replace() and replaceAll():
+// console.log(str.replace("c","k"));     // akcio (dono c replace nahi hue)
+// console.log((str.replaceAll("c", "k")));   // akkio
