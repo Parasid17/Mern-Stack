@@ -1,4 +1,4 @@
-// REGEXP :-   03/07/2025 
+// REGULAR EXPRESSION (REGEX) :-   03/07/2025 
 
 // ==============================================================================================
 // 1. What is RegEx?
@@ -32,11 +32,15 @@
 // let text = "learning acciojob course";
 // let text = "learning accbjiojob course";
 // let pattern = /accio/;
+// console.log(pattern.test(text));       // true
+// let pattern = /accio/;
 // console.log(pattern.test(text));       // false
 
 
 // ----------------------------------------------------------------------------------------------
 // match() & exec() -
+// -> match() works on text
+// -> exec() works on pattern
 // let text = "hello hello";
 // let pattern = /hello/g;              // g --> global flag
 // console.log(text.match(pattern));
@@ -56,20 +60,20 @@
 
 
 // ----------------------------------------------------------------------------------------------
-// replace() -
+// replace() - it works on text
 // let text = "hello hello world";
 // console.log(text.replace(/hello/, "hi"));      // will only replace first hello
 // console.log(text.replace(/hello/g, "hi"));      // g will help it to replace all hello
 
 
 // ----------------------------------------------------------------------------------------------
-// search() -
+// search() - it works on text
 // let text = "hello world";
 // console.log(text.search(/world/));     // will return the index --> 6
 
 
 // ----------------------------------------------------------------------------------------------
-// split() -
+// split() - it works on text
 // let text = "apple, orange, grapes";
 // console.log(text.split(/,/));
 
@@ -192,17 +196,17 @@
 
 // ==============================================================================================
 // Sets:
-// character set [abc] -
+// Character set [abc] -
 // let text = "cat";
 // let pattern = /c[aeiou]t/;
 // console.log(pattern.test(text));      // true --> a exists in between c and t
 
 
 // ----------------------------------------------------------------------------------------------
-// negative character set [^abc] - here ^ represents negative character
+// Negative Character set [^abc] - here ^ represents negative character
 // let text = "cbt";
 // let pattern = /c[^aeiou]t/;
-// console.log(pattern.test(text));        // true --> a does not exists in between c and t
+// console.log(pattern.test(text));        // true --> a/e/i/o/u does not exists in between c and t
 
 
 
