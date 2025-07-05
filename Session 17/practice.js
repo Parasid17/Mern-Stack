@@ -116,3 +116,34 @@
 // let  password = "sidleet12";
 // let pattern = /\d/;
 // console.log(pattern.test(password));
+
+
+// ==============================================================================================
+//P21 Count the Vowels in a string:
+// let text = "SiddhAnt";
+// let pattern = /[aeiou]/ig;
+// console.log((text.match(pattern) || []).length);
+
+
+// ==============================================================================================
+// P23 Replace Multiple Spaces with single space:
+// let text = "he   ll  o";
+// console.log(text.replace(/\s+/g, " "));
+
+
+// ==============================================================================================
+// P24 Check if String starts with capital letter:
+// let text = "Siddhant";
+// let pattern = /^[A-Z]/;
+// console.log(pattern.test(text));
+
+
+// ==============================================================================================
+// P25 Return true if first letter of every word is capital:
+// function isTitleCase(text) {
+//     const pattern = /^([A-Z][a-z]*\s?)+$/;
+//     return pattern.test(text);
+// }
+
+// console.log((isTitleCase("Hello World")));      // true
+// console.log((isTitleCase("Hello world")));      // false
