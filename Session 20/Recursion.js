@@ -1,4 +1,15 @@
-// RECURSION:-   100/07/2025
+// RECURSION:-   10/07/2025
+
+// -> functtion calls itself until it reaches to a base case/condition.
+// -> There are two steps of analysis:
+    // 1. High level analysis.
+    // 2. Low level analysis.      --> dry run (to identify base case)     [Dry run - Not always required]
+
+// 1. High level analysis:
+// -> It has three steps -
+    // a) Expectation.
+    // b) Faith.
+    // c) Relation b/w Expectation and Faith.
 
 // Eg. print in decending:-
 // function pd(n) {
