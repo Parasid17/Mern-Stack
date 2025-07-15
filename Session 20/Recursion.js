@@ -1,6 +1,6 @@
 // RECURSION:-   10/07/2025
 
-// -> functtion calls itself until it reaches to a base case/condition.
+// -> function calls itself until it reaches to a base case/condition.
 // -> There are two steps of analysis:
     // 1. High level analysis.
     // 2. Low level analysis.      --> dry run (to identify base case)     [Dry run - Not always required]
