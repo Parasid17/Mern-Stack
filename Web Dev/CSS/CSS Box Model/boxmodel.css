@@ -1,0 +1,73 @@
+/* * {
+    margin: 0px;
+    padding: 0px;
+} */
+
+
+/* block (default) */
+/* div {
+    background-color: blueviolet;
+    height: 100px;
+    width: 200px;
+    border: 2px solid black;
+    box-sizing: border-box;
+    margin: 50px;
+    padding: 20px;
+} */
+
+
+/* inline */
+/* div {
+    display: inline;
+    background-color: blueviolet;
+    height: 100px;
+    width: 200px;
+    border: 2px solid black;
+    box-sizing: border-box;
+    margin: 50px;
+    padding: 20px;
+} */
+
+
+/* inline-block */
+/* div {
+    display: inline-block;
+    background-color: blueviolet;
+    height: 100px;
+    width: 200px;
+    border: 2px solid black;
+    box-sizing: border-box;
+} */
+
+
+
+
+/* 
+What is "box-sizing: border-box;" ? 
+The box-sizing property allows us to include the padding and border in an element's total width and height.
+If you set box-sizing: border-box; on an element, padding and border are included in the width and height: 
+*/
+
+
+/* display */
+/* ----------- */
+/* 1. inline - 
+    - takes width according to its content
+    - next element in same line
+    - height and width has no effect
+*/
+
+/* 2. block -
+    - takes 100% width
+    - next element in new line
+    - we can set height and width
+*/
+
+/* 3. inline-block - 
+    - we can set height and width
+    - next element in same line
+*/
+
+/* 4. none -
+    - The element is completely removed
+*/
