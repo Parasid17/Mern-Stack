@@ -1,0 +1,73 @@
+.container {
+    height: 500px;
+    width: 500px;
+    background-color: gray;
+}
+
+.item {
+    height: 100px;
+    width: 100px;
+    border: 1px solid black;
+    color: #fff;
+    position: relative;
+}
+
+.item1 {
+    background-color: red;
+}
+
+.item2 {
+    background-color: blue;
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+    /* position: absolute;
+    top: 50px;
+    right: 50px; */
+    /* position: relative;
+    top: 50px;
+    left: 50px; */
+}
+
+.item3 {
+    background-color: green;
+}
+
+p {
+    text-align: justify;
+}
+
+
+
+/* ----------------------------------------------------------------------------------------------  */
+/* Position:- 
+------------------
+static
+relative
+absolute
+fixed
+sticky
+*/
+
+/*
+When we use position, we get access to 4 co-ordinates 
+--> top, right, bottom, left
+*/
+
+
+
+/* ----------------------------------------------------------------------------------------------  */
+/*
+1. relative -
+    - it does not come out of the flow
+    - moves according to its original position
+
+2. absolute - 
+    - coming out of the flow
+    - moves according to positioned parent, viewport in case of no positioned parent
+
+3. fixed -
+    - coming out of the flow
+    - moves according to the viewport
+    - stays at its position on scrolling
+*/

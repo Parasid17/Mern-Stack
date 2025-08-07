@@ -1,0 +1,49 @@
+/* CSS UNITS  :- 07/08/2025 */
+/* Types of Units:
+
+1. Absolute Units (fixed Size) 
+    - px, cm, mm, in, pt  --> px is majorly used
+
+2. Relavtive Units (size depends on something else) 
+    - %, em, rem, vw, vh --> %, vw, vh are majorly used
+        % -> is relative to parent element size
+        em -> is relative to font size of parent
+        rem -> is relative to font size of html
+        vw(view port width) -> is relative to width of the view port(screen)
+        vh(view port height) -> is relative to height of the view port(screen)
+*/
+
+
+
+/* ----------------------------------------------------------------------------------------------  */
+/* CSS Color :- */
+/* 
+1. Color Name:
+p{
+color: blue;
+}
+
+
+********************************************
+2. hex code:  #RRGGBB
+h1 {
+color: #ff0000;    -> red
+}
+
+#ffffff --> white
+#000000 --> black
+
+
+********************************************
+3. RGB:  (0-255)
+div {
+color: rgb(255, 0, 0);   -> red
+}
+
+
+********************************************
+4. RGBA:  (0-1)
+div {
+bg-color: rgba(0, 0, 0, 0.5);  -> semi-transparent black
+}
+*/
