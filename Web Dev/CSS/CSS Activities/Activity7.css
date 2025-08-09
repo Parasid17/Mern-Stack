@@ -1,0 +1,14 @@
+.blog_preview {
+    text-align: center;
+}
+
+.blog_title {
+    font-weight: 900;
+    font-size: larger;
+    text-transform: capitalize;
+}
+
+.blog_author {
+    font-size: smaller;
+    font-style: italic;
+}

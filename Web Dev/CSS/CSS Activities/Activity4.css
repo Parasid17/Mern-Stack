@@ -1,0 +1,16 @@
+.cta_section {
+    border: 1px solid black;
+    text-align: center;
+    background-color: rgb(3, 3, 100);
+    color: #fff;
+    padding: 15px 0px;
+}
+
+#button {
+    border: 1px solid black;
+    border-radius: 4px;
+    padding: 10px 10px;
+    background-color: #fff;
+    margin: 10px 0px;
+    color: #000;
+}

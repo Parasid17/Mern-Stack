@@ -1,0 +1,13 @@
+.scroll_box {
+    height: 180px;
+    overflow-y: scroll;
+    border: 1px solid rgba(0, 0, 0, 0.151);
+    background-color: whitesmoke;
+}
+
+.sticky_title {
+    background-color: rgb(128, 128, 128);
+    border: 1px solid rgba(0, 0, 0, 0.211);
+    position: sticky;
+    top: 0px;
+}

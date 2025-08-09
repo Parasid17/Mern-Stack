@@ -1,0 +1,13 @@
+.quote_box {
+    font-family: sans-serif;
+    line-height: 20px;
+    text-align: center;
+}
+
+.quote_text {
+    font-style: italic;
+}
+
+.quote_author {
+    font-variant: small-caps;
+}

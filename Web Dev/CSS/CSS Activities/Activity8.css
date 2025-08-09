@@ -1,0 +1,17 @@
+#main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cta_button {
+    text-transform: uppercase;
+    font-weight: 900;
+    letter-spacing: 2px;
+    text-align: center;
+    cursor: pointer;
+    margin: 20px 0px;
+    border: 1px solid black;
+    border-radius: 8px;
+    padding: 10px;
+}

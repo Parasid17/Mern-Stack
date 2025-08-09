@@ -1,0 +1,12 @@
+#svg {
+    height: 50px;
+    width: 50px;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    cursor: pointer;
+}
+
+#text {
+    text-align: justify;
+}
