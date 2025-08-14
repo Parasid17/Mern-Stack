@@ -1,0 +1,47 @@
+/* FLEXBOX  :-  11/08/2025 */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.navbar {
+    background-color: #333;
+    color: white;
+    padding: 15px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.nav_links a {
+    color: #fff;
+    text-decoration: none;
+    margin-left: 20px;
+}
+
+
+
+/* ----------------------------------------------------------------------------------------------  */
+/* CSS is all about properties --> False */
+/* CSS is more about layout modes */
+
+/* 1. Main Axis - left to right
+   2. Cross Axis - top to bottom
+
+      _________|__________
+     |         |          |
+     |         |          |
+     |         |          |
+   --|---------|----------|-- main axis
+     |         |          |
+     |         |          |
+     |         |          |
+     |_________|__________|
+               |
+            cross axis
+*/
