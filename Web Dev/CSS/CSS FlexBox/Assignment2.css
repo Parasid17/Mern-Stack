@@ -1,0 +1,12 @@
+.center {
+    height: 100vh;
+    background: lightyellow;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box {
+    padding: 20px;
+    background: lightcoral;
+}
+

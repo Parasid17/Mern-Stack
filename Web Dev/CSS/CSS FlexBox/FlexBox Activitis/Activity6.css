@@ -1,0 +1,31 @@
+.container {
+    border: 2px solid black;
+    display: flex;
+}
+.container div {
+    background: lightcoral;
+    margin: 5px;
+    padding: 20px;
+}
+.item1 {
+    flex: 1 1 150px;
+}
+.item2 {
+    flex: 2 1 150px;
+}
+.item3 {
+    flex: 1 1 150px;
+}
+
+
+
+/* 
+flex-grow - The flex-grow property specifies how much the item will grow relative to the rest of the flexible items inside the same container.
+
+flex-shrink - The flex-shrink property specifies how the item will shrink relative to the rest of the flexible items inside the same container.
+
+flex-basis - The flex-basis property specifies the initial length of a flexible item.
+
+Shorthand property :-
+flex: flex-grow flex-shrink flex-basis;
+*/

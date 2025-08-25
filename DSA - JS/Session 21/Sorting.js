@@ -413,3 +413,34 @@
 
 // let arr = [38, 27, 43, 3, 9, 82, 10];
 // console.log(quickSort(arr));
+
+
+
+let n = 4;
+let a = n;
+for (let i = 0; i < n; i++) {
+    for (let j = a; j > 0; j--) {
+        process.stdout.write(`${j} `);
+    }
+    console.log();
+    a--;
+}
+
+
+// let arr = [
+//     [1,2,3],
+//     [4,5,6],
+//     [7,8,9]
+// ];
+
+// function transpose(arr) {
+//     let transposed = [];
+//     for (let i = 0; i < arr[0].length; i++) {
+//         transposed[i] = [];
+//         for (let j = 0; j < arr.length; j++) {
+//             transposed[i][j] = arr[j][i];
+//         }
+//     }
+//     console.log(transposed);
+// }
+// transpose(arr);

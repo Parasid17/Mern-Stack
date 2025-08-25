@@ -1,0 +1,80 @@
+/* --- Layout Wrapper --- */
+.pricing {
+    display: flex;
+    /* TODO: allow items to wrap */
+    flex-wrap: wrap;
+    /* TODO: add horizontal/vertical gaps between cards */
+    gap: 16px;
+    /* TODO: add outer padding */
+    padding: 16px;
+    /* TODO: subtle background + border for section */
+    background-color: #f3f1e0;
+    border: 1px solid black;
+}
+
+/* --- Individual Card --- */
+
+.card {
+    /* TODO: make this a column flexbox so the button can stick to bottom */
+    display: flex;
+    flex-direction: column;
+    /* TODO: set a flexible base (e.g., 1 1 280px) for default behavior */
+    flex: 1 1 280px;
+    border: 1px solid #ddd;
+    background: #fff;
+    padding: 16px;
+    border-radius: 12px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, .06);
+}
+
+.card h3 {
+    margin: 0 0 8px;
+    font-size: 20px;
+}
+
+.price {
+    font-size: 28px;
+    font-weight: 700;
+    margin-bottom: 8px;
+}
+
+.features {
+    /* TODO: stack features vertically with spacing */
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    padding: 0;
+    margin: 0 0 16px;
+}
+
+/* --- Spacer to push button to the bottom --- */
+.fill {
+    /* TODO: make this grow to occupy remaining vertical space */
+    flex: 1;
+}
+
+.card button {
+    padding: 10px 12px;
+    border: none;
+    border-radius: 8px;
+    background: #0b74e5;
+    color: #fff;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+/* --- Specific grow ratios (Starter=1, Pro=2, Enterprise=1) --- */
+.starter {
+    /* TODO: flex: 1 1 280px */
+    flex: 1 1 280px;
+}
+
+.pro {
+    /* TODO: flex: 2 1 320px (wider) */
+    flex: 2 1 320px;
+}
+
+.enterprise {
+    /* TODO: flex: 1 1 280px */
+    flex: 1 1 280px;
+}

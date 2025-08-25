@@ -1,0 +1,16 @@
+.container {
+    height: 200px;
+    border: 2px solid black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.container div {
+    background: lightcoral;
+    padding: 20px;
+}
+
+.item2 {
+    align-self: flex-end;
+}

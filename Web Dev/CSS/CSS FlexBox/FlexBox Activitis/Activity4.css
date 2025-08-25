@@ -1,0 +1,14 @@
+.container {
+    border: 2px solid black;
+    display: flex;
+    flex-wrap:wrap;
+    height: 500px;
+    align-items: flex-end;
+}
+.container div {
+    background: lightblue;
+    margin: 5px;
+    padding: 20px;
+    width: 200px;
+    /* height: 200px; */
+}

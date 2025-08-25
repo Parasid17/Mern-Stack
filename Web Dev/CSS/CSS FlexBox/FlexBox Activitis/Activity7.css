@@ -1,0 +1,23 @@
+.container {
+    border: 2px solid black;
+    display: flex;
+}
+.container div {
+    background: lightblue;
+    padding: 20px;
+    margin: 5px;
+}
+.item1 {
+    order: 2;
+}
+.item2 {
+    order: 1;
+}
+.item3 {
+    order: 0;
+}
+
+
+
+
+/* Do not use the order property as it is not a good practice*/
