@@ -1,0 +1,82 @@
+<!-- 
+EXERCISE 3 — Design a Callout Panel Set with Colors & Backgrounds 
+
+## **Goal**
+Build a **set of callout panels** to practice:
+- Applying **solid background colors**
+- Using **background images** with size, position, repeat, and attachment
+- Pairing accessible **text colors** with their backgrounds
+- Adding consistent **borders and spacing**
+-->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Callout Panels — Colors & Backgrounds</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- TODO: Wrap all content in a div.shell -->
+  <div class="shell">
+
+    <header id="hero">
+      <!-- TODO: Add a heading with class="page-title" -->
+      <h1 class="page-title">Callout Panel Design Lab</h1>
+      <!-- TODO: Add a subtitle paragraph with class="page-subtitle" -->
+      <p class="page-subtitle">Practice solid backgrounds and images with text colors.</p>
+      <!-- TODO: Add an empty decorative div with class="hero-banner" -->
+      <div class="hero-banner">
+      </div> 
+    </header>
+
+    <main id="content">
+      <section class="panel-set">
+        <!-- Info panel -->
+        <article class="callout info">
+          <h2 class="callout-title">Info</h2>
+          <p class="callout-text">Use calm colors for informational messages.</p>
+          <!-- TODO: Add a list with class="callout-list" and two li.callout-item -->
+          <ul class="callout-list">
+            <li class="callout-item">list 1</li>
+            <li class="callout-item">list 2</li>
+          </ul> 
+        </article>
+
+        <!-- Success panel -->
+        <article class="callout success">
+          <h2 class="callout-title">Success</h2>
+          <p class="callout-text">Green signals positive feedback or confirmation.</p>
+        </article>
+
+        <!-- Warning panel -->
+        <article class="callout warning">
+          <h2 class="callout-title">Warning</h2>
+          <p class="callout-text">Amber tones are ideal for caution or reminders.</p>
+        </article>
+
+        <!-- Danger panel -->
+        <article class="callout danger">
+          <h2 class="callout-title">Danger</h2>
+          <p class="callout-text">Red should only be used for critical alerts.</p>
+        </article>
+        
+        <!-- TODO: Add one more callout with class="note" for general notes -->
+        <article class="callout note">
+          <h2 class="callout-title">Note</h2>
+          <p class="callout-text">Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+        </article>
+
+      </section>
+    </main>
+
+    <footer id="site-footer">
+      <p class="footer-text">© 2025 Callout Lab</p>
+      <!-- TODO: Add a footer link with class="footer-link" -->
+      <a class="footer-link" href="https://github.com/Parasid17/Mern-Stack">Visit my GitHub</a> 
+    </footer>
+
+  </div>
+</body>
+</html>
