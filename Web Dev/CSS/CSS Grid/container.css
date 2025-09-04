@@ -1,0 +1,9 @@
+.block_grid {
+    display: grid;
+    border: 2px solid red;
+}
+
+.inline_grid {
+    display: inline-grid;
+    border: 2px solid blue;
+}
