@@ -4,58 +4,62 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Foodie's Delight - Reservations</title>
+    <link rel="stylesheet" href="reservation.css">
   </head>
   <body>
     <header>
       <h1>Book a Table</h1>
     </header>
 
-    <form action="#" method="POST">
-      <!-- TODO: Add an input field for Name with a label -->
-       <label for="unmae">Name:</label>
-       <input type="text" name="unmae" id="uname" placeholder="Enter Your Name">
-       <br></br>
+    <div class="form_container">
+      <form action="#" method="POST">
+        <!-- TODO: Add an input field for Name with a label -->
+        <div>
 
-      <!-- TODO: Add an input field for Email with a label -->
-       <label for="mail">Email:</label>
-       <input type="email" name="mail" id="mail" placeholder="Enter Your Email">
-       <br></br>
-
-      <!-- TODO: Add an input field for Phone with a label -->
-       <label for="phnnum">Phone number:</label>
-       <input type="text" name="phnnum" id="phnnum" placeholder="Enter Your Phone No.">
-       <br></br>
-
-      <!-- TODO: Add an input field for Date selection with a label -->
-       <label for="date">Date Selection:</label>
-       <input type="date" name="date" id="date">
-       <br></br>
-       
-
-      <!-- TODO: Add an input field for Time selection with a label -->
-       <label for="time">Time Selection:</label>
-       <input type="time" name="time" id="time">
-       <br></br>
-       
-
-      <!-- TODO: Add an input field for Number of Guests with a label -->
-       <label for="guests">Number of Guests: </label>
-       <input type="number" name="guests" id="guests" placeholder="Enter number of Guests">
-       <br></br>
-       
-
-       <!-- TODO: Add a textarea for Special Requests with a label -->
-       <label for="requst">Any Special Requests:</label>
-       <br></br>
-       <textarea name="requst" id="requst" rows="6" cols="20"></textarea>
-       <br></br>
-       
-
-      <!-- TODO: Add a Submit button -->
-       <input type="submit" value="Submit">
-       <br></br>
-       
-    </form>
+        </div> 
+         <label for="unmae">Name:</label>
+         <input type="text" name="unmae" id="uname" placeholder="Enter Your Name" required>
+         <br>
+  
+        <!-- TODO: Add an input field for Email with a label -->
+         <label for="mail">Email:</label>
+         <input type="email" name="mail" id="mail" placeholder="Enter Your Email" required>
+         <br>
+  
+        <!-- TODO: Add an input field for Phone with a label -->
+         <label for="phnnum">Phone number:</label>
+         <input type="text" name="phnnum" id="phnnum" placeholder="Enter Your Phone No." required>
+         <br>
+  
+        <!-- TODO: Add an input field for Date selection with a label -->
+         <label for="date">Date Selection:</label>
+         <input type="date" name="date" id="date" required>
+         <br>
+         
+  
+        <!-- TODO: Add an input field for Time selection with a label -->
+         <label for="time">Time Selection:</label>
+         <input type="time" name="time" id="time" required>
+         <br>
+         
+  
+        <!-- TODO: Add an input field for Number of Guests with a label -->
+         <label for="guests">Number of Guests: </label>
+         <input type="number" name="guests" id="guests" placeholder="Enter number of Guests" required>
+         <br>
+         
+  
+         <!-- TODO: Add a textarea for Special Requests with a label -->
+         <label for="requst">Any Special Requests:</label>
+         <textarea name="requst" id="requst" rows="6" cols="20" placeholder="Any Special Requests"></textarea>
+         <br>
+         
+  
+        <!-- TODO: Add a Submit button -->
+         <input id="btn" type="submit" value="Submit">
+         
+      </form>
+    </div>
 
     <footer>
       <p>&copy; 2025 Foodie's Delight. All rights reserved.</p>
