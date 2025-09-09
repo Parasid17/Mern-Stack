@@ -1,0 +1,19 @@
+.layout {
+    display: flex;
+}
+.sidebar {
+    background: lightgray;
+    padding: 20px;
+    width: 200px;
+}
+.content {
+    flex: 1;
+    padding: 20px;
+}
+
+/* Mobile: hide sidebar */
+@media (max-width: 420px) {
+    .sidebar {
+        display: none;
+    }
+}

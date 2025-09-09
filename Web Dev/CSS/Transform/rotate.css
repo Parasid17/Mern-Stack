@@ -1,0 +1,10 @@
+.box {
+    height: 180px;
+    background-color: skyblue;
+    text-align: center;
+    line-height: 100px;
+    font-weight: bold;
+
+    transform: rotate(90deg);
+    /* transform: rotate(-90deg); */
+}

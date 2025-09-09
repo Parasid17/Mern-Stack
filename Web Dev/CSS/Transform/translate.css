@@ -1,0 +1,12 @@
+.box {
+    height: 180px;
+    background-color: skyblue;
+    text-align: center;
+    line-height: 100px;
+    font-weight: bold;
+
+    /* Move element */
+    /* transform: translate(50px, 50px); */
+    /* transform: translateX(50px); */
+}
+

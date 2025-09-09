@@ -1,0 +1,47 @@
+.image_container {
+    overflow: hidden;
+    height: 150px;
+    width: 150px;
+}
+
+.image {
+    height: 150px;
+    width: 150px;
+}
+
+.image:hover {
+    transform: scale(1.5) translateY(-30px);
+    transition: 1s;
+}
+
+.btn {
+    background-color: red;
+    padding: 24px;
+}
+.btn:hover {
+    transform: scale(1.25) translateY(-5px);
+    transition: 1s;
+}
+
+.card {
+    height: 150px;
+    width: 200px;
+    background-color: teal;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+
+}
+
+.card:hover {
+    transform: rotateX(50deg) rotateY(-50deg) skew(40deg);
+    transition: 1s;
+}
+
+.icon {
+    font-size: 50px;
+}
+.icon:hover{
+    transform: translateY(-30px) rotate(45deg) scale(1.05);
+}

@@ -1,0 +1,9 @@
+h1 {
+    height: 180px;
+    background-color: skyblue;
+    text-align: center;
+    line-height: 100px;
+    font-weight: bold;
+
+    text-shadow: 3px 3px 5px black;
+}

@@ -1,0 +1,28 @@
+.btn {
+    padding: 12px 24px;
+    background: tomato;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin-bottom: 30px;
+
+    transition: background-color 1s ease;
+}
+
+.btn:hover {
+    background-color: green;
+}
+
+.box {
+    width: 100px;
+    height: 100px;
+    background-color: skyblue;
+
+    transition: transform 1s ease, background-color 1s ease;
+    /* transition: all 1s ease; */
+}
+
+.box:hover {
+    transform: translate(80px);
+    background-color: aquamarine;
+}
