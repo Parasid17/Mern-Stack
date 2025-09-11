@@ -1,0 +1,178 @@
+/* .box {
+    height: 150px;
+    width: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 700;
+    color: #fff;
+    background-color: dodgerblue; */
+
+/* Animation applied */
+/* animation-name: moveBox;
+    animation-duration: 3s; */
+/* } */
+
+/* @keyframes moveBox {
+    from {
+        transform: translateX(0);
+    }
+    to {
+        transform: translateX(200px);
+    }
+} */
+
+/* @keyframes moveBox {
+    0% {
+        transform: translateX(0);
+    }
+    50% {
+        transform: translateX(200px);
+    }
+    100% {
+        transform: translateX(0);
+    }
+} */
+
+
+/* .box1 {
+    height: 150px;
+    width: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 700;
+    color: #fff;
+    background-color: dodgerblue; */
+
+    /* Animation applied */
+    /* animation-name: moveBox;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+} */
+
+/* @keyframes moveBox {
+    from {
+        transform: translateX(0);
+    }
+
+    to {
+        transform: translateX(200px);
+    }
+} */
+
+
+/* .ball {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background: dodgerblue;
+
+    animation-name: bounce;
+    animation-duration: 3s;
+    animation-direction: reverse;
+}
+@keyframes bounce {
+    from {
+        transform: translateX(0);
+    }
+    to {
+        transform: translateX(200px);
+    }
+} */
+
+
+/* .box3 {
+    width: 100px;
+    height: 100px;
+    background: dodgerblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    animation-name: moveBox;
+    animation-duration: 3s;
+    animation-delay: 2s;
+}
+@keyframes moveBox {
+    from {
+        transform: translateX(0);
+    }
+    to {
+        transform: translateX(200px);
+    }
+} */
+
+
+/* .box4 {
+    height: 150px;
+    width: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 700;
+    color: #fff;
+    background-color: dodgerblue; */
+
+    /* Animation applied */
+    /* animation-name: grow;
+    animation-duration: 3s;
+    animation-delay: 2s;
+    animation-fill-mode: forwards;
+} */
+
+/* @keyframes grow {
+    from {
+        transform: scale(1);
+        background: orange;
+    }
+
+    to {
+        transform: scale(200px);
+        background: red;
+    }
+} */
+
+
+/* .box {
+    width: 100px;
+    height: 40px;
+    margin: 10px;
+    background: dodgerblue;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    animation: move 3s infinite;
+}
+
+.linear {
+    animation-timing-function: linear;
+}
+
+.ease {
+    animation-timing-function: ease;
+}
+
+.ease-in {
+    animation-timing-function: ease-in;
+}
+
+.ease-out {
+    animation-timing-function: ease-out;
+}
+
+.ease-in-out {
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes move {
+    from {
+        transform: translateX(0);
+    }
+
+    to {
+        transform: translateX(300px);
+    }
+} */
