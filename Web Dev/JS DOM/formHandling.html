@@ -1,0 +1,60 @@
+<!-- FORM HANDLING:-  15/09/2025 -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .error {
+            color: red;
+            font-weight: 700;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Form with Form Events</h1>
+
+    <form action="simpleForm">
+        <label for="name">Name: </label>
+        <input type="text" name="name" id="name" placeholder="Enter your name">
+        <span id="nameError" class="error"></span>
+        <br></br>
+
+        <label for="color">Favorite Color: </label>
+        <select name="color" id="color">
+            <option value="">--Select--</option>
+            <option value="red">Red</option>
+            <option value="blue">Blue</option>
+            <option value="green">Green</option>
+        </select>
+        <br></br>
+
+        <button type="submit">Submit</button>
+    </form>
+    <script src="formHandling.js"></script>
+</body>
+
+</html>
+
+
+
+<!-- 
+Elements used:
+    label
+    input
+    textarea
+    select
+    button
+
+
+Common form events
+    submit
+    input
+    change
+    focus
+    blur
+-->

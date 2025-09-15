@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event Handling</title>
+    <style>
+        #parent {
+            height: 500px;
+            width: 500px;
+            border: 2px solid black;
+            background-color: lightgreen;
+        }
+
+        #child {
+            height: 250px;
+            width: 250px;
+            border: 2px solid black;
+            background-color: lightcoral;
+        }
+
+        #innerChild {
+            height: 125px;
+            width: 125px;
+            border: 2px solid black;
+            background-color: lightblue;
+        }
+    </style>
+</head>
+<body>
+    <div id="parent">
+        <div id="child">
+            <div id="innerChild">
+
+            </div>
+        </div>
+    </div>
+    <script src="propogation.js"></script>
+</body>
+</html>
