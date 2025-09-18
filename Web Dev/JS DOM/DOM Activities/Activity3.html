@@ -1,0 +1,39 @@
+<!--  17/09/2025 
+Activity 3: Shopping List Manager.
+    **To Do** -> Add an item to the list.
+    Delete an item from the list.
+    Clear the entire list. 
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping List</title>
+    <style>
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        li {
+            margin: 5px 0px;
+        }
+        .delete_Btn {
+            color: red;
+            margin-left: 8px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <h1>Shopping List</h1>
+    <input type="text" id="itemInput" placeholder="Enter Item" />
+    <button id="addItem">Add Item</button>
+    <button id="clearList">Clear List</button>
+    <ul id="shoppingList"></ul>
+
+    <script src="Activity3.js"></script>
+</body>
+</html>
