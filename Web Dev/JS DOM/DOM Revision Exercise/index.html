@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>DOM Practice</title>
+    <style>
+        .title {
+            font-weight: 700;
+        }
+
+        .box {
+            padding: 8px;
+            border: 1px solid #ddd;
+            margin: 6px 0;
+        }
+
+        .blue {
+            background: #e6f0ff;
+        }
+
+        .red {
+            background: #ffe6e6;
+        }
+
+        .hidden {
+            display: none;
+        }
+
+        .rounded {
+            border-radius: 8px;
+        }
+
+        .highlight {
+            outline: 2px dashed orange;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="main" class="box blue">
+        <h1 class="title">Welcome</h1>
+        <p id="info">This is a paragraph.</p>
+        <button id="action">Click me</button>
+    </div>
+
+    <div id="playground" class="box">
+        <h2>Playground</h2>
+        <ul id="list">
+            <li class="item">Alpha</li>
+            <li class="item">Beta</li>
+        </ul>
+        <div id="output"></div>
+    </div>
+
+    <!-- Your scripts go here -->
+    <script>
+        // write code per task below
+        // ----- TASK 1 -----
+        let main = document.getElementById('main');
+        let title = document.getElementsByClassName('title');
+        let para = document.getElementsByTagName('p');
+        let fitem = document.querySelector('.item');
+        let allitem = document.querySelectorAll('.item');
+
+        console.log(main);
+        console.log(title);
+        console.log(para);
+        console.log(fitem);
+        console.log(allitem);
+
+
+
+        // ----- TASK 2 -----
+        let cnlength = main.childNodes.length;
+        console.log(cnlength);
+        console.log(main.children.length);
+
+        console.log(main.firstChild);
+        console.log(main.firstElementChild);
+        console.log(main.lastChild);
+        console.log(main.lastElementChild);
+
+
+
+        // ----- TASK 3 -----
+        let paraId = document.getElementById('info');
+        // paraId.textContent = "<b>Safe?</b>";
+        paraId.innerHTML = "<b>Safe?</b>";
+
+
+
+        // ----- TASK 4 -----
+        let newpara = document.createElement('p');
+        let playground = document.getElementById('playground');
+        newpara.textContent = "Added by createElement + appendChild"
+        playground.appendChild(newpara);
+
+
+
+        // ----- TASK 5 -----
+        // let list = document.getElementById('list');
+        // let removebtn = document.createElement('button');
+        // removebtn.textContent = 'Remove Last';
+        // list.appendChild
+
+
+
+        // ----- TASK 7 -----
+        let img = document.createElement('img');
+        img.setAttribute('id', 'hero');
+        img.setAttribute('src', "https://images.unsplash.com/photo-1758315716325-d2c7c0eb9659?q=80&w=715&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+        img.setAttribute('alt', "Image A");
+        let button = document.createElement('button');
+        button.setAttribute('id', 'swap');
+        button.textContent = "Swap Image";
+        document.body.insertBefore(img, playground);
+        document.body.insertBefore(button, playground);
+
+        button.addEventListener('click', () => {
+            if (img.getAttribute('src') == "https://images.unsplash.com/photo-1758315716325-d2c7c0eb9659?q=80&w=715&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" && img.getAttribute('alt') == "Image A") {
+                img.setAttribute('src', "https://images.unsplash.com/photo-1758314896569-b3639ee707c4?q=80&w=715&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+                img.setAttribute('alt', "Image B");
+            }
+            else {
+                img.setAttribute('src', "https://images.unsplash.com/photo-1758315716325-d2c7c0eb9659?q=80&w=715&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+                img.setAttribute('alt', "Image A");
+            }
+        });
+
+
+
+
+        // ----- TASK 8 -----
+        main.className = "box red";
+        main.classList.add = "rounded";
+        let action = document.getElementById('action');
+        action.addEventListener('click', () => {
+            main.classList.toggle = "highlight";
+        });
+    </script>
+</body>
+
+</html>
