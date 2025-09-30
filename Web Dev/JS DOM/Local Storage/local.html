@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Local Storage</title>
+</head>
+<body>
+    <label for="uname">Name: </label>
+    <input type="text" name="uname" id="uname">
+    <br></br>
+    
+    <label for="uemail">Email: </label>
+    <input type="email" name="uemail" id="uemail">
+    <br></br>
+
+    <button id="savebtn">Save</button>
+
+    <script>
+        // let name = "Ajay";
+        // localStorage.myName = "Ajay";
+        // console.log(localStorage.myName);   // not a good practice
+
+        // instead we can do this
+        // localStorage.setItem("myName", "Rohan");
+        // localStorage.setItem("myEmail", "rohan@gmail.com");
+
+        // console.log(localStorage.getItem("myName"));
+        // console.log(localStorage.getItem("myEmail"));
+
+
+        // User Input
+        // Method 1
+        // let savebtn = document.getElementById('savebtn');
+
+        // savebtn.addEventListener('click', () => {
+        //     let userName = document.getElementById('uname').value;
+        //     let userEmail = document.getElementById('uemail').value;
+        //     localStorage.setItem("myName", uname);
+        //     localStorage.setItem("myEmail", uname);
+        // });
+
+
+        // Method 2: using input
+        // let userName = document.getElementById('uname');
+        // let userEmail = document.getElementById('uemail');
+        // userName.addEventListener('input', (e) => {
+        //     localStorage.setItem("myName", e.target.value);
+        // });
+
+        // userEmail.addEventListener('input', (e) => {
+        //     localStorage.setItem("myEmail", e.target.value);
+        // });
+       
+        
+        // object
+        // Hard Code
+        // let myData = {
+        //     myName : "Jay",
+        //     myAge : "28"
+        // };
+
+        // localStorage.setItem("MyData", JSON.stringify(myData));
+
+        // Method 2: User Input
+        // let myData = {
+        //     myName : "",
+        //     myAge : ""
+        // };
+
+        // myName.addEventListener('input', (e) => {
+        //     myData.myName = e.target.value;
+        //     localStorage.setItem("MyData", JSON.stringify(myData));
+        // });
+
+        // myAge.addEventListener('input', (e) => {
+        //     myData.myAge = e.target.value;
+        //     localStorage.setItem("MyData", JSON.stringify(myData));
+        // });
+
+
+        // To clear everything
+        // localStorage.clear();
+
+
+        // To remove a particular item or key
+        // localStorage.removeItem(myName);
+    </script>
+</body>
+</html>
