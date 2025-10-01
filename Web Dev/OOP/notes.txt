@@ -1,0 +1,16 @@
+Object Oriented Programming:-
+-----------------------------------------------------------------
+
+Everything is object in JS ==> True
+
+object => set of properties and methods
+
+How to create object:
+1. Object Literals.
+2. constructor function.
+3. classes.
+
+
+-----------------------------------------------------------------
+
+prototypes
