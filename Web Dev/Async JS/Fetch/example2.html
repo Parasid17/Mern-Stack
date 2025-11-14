@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <input id="username" placeholder="Enter GitHub username">
+    <button id="btn">Fetch Profile</button>
+    <div id="profile"></div>
+
+    <script>
+        document.getElementById("btn").addEventListener("click", () => {
+            let username = document.getElementById("username").value;
+            let url = `https://api.github.com/users/${username}`
+
+            fetch(url)
+                .then((res) => {
+                    return res.json();
+                })
+                .then((data) => {
+                    document.getElementById("profile").innerHTML = `
+                <img src=${data.avatar_url} alt=${data.name} /> 
+                <p>Name: ${data.name}</p>
+                <p>Followers: ${data.followers}</p>
+                <p>Public Repos: ${data.public_repos}</p>
+            `
+                })
+                .catch((err) => {
+                    console.log(err);
+                })
+
+
+        })
+    </script>
+</body>
+
+</html>
+
+
+<!-- 1. Use the **Dog API** (`https://dog.ceo/api/breeds/image/random`)
+    
+    → Show a new random dog image every time you click a button.
+    
+
+2. Handle errors gracefully (e.g., “Failed to fetch dog photo 🐾”). -->

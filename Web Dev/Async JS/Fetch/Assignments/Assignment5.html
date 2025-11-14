@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <button id="delBtn">Delete post 1</button>
+    <div id="statusDiv"></div>
+
+    <script>
+        let delBtn = document.getElementById('delBtn');
+        let statusDiv = document.getElementById('statusDiv');
+
+        delBtn.addEventListener('click', () => {
+            status.textContent = "Deleting a post...";
+            fetch("https://jsonplaceholder.typicode.com/posts/1", {
+                method: "DELETE"
+            })
+                .then((res) => {
+                    console.log(res.ok);
+                    if (res.ok) {
+                        statusDiv.textContent = "Post Deleted";
+                    }
+                    else {
+                        // throw new Error("error occured")
+                        statusDiv.textContent = "Delete Failed (status: X)";
+                    }
+                })
+                .catch((err) => {
+                    statusDiv.textContent = "Network issue.";
+                })
+        })
+    </script>
+</body>
+
+</html>

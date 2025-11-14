@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="statusDiv"></div>
+
+    <script>
+        let statusDiv = document.getElementById('statusDiv');
+        statusDiv.textContent = "Loading quote...";
+
+        setTimeout(() => {
+            fetch("https://api.quotable.io/random")
+            .then((res) => {
+                console.log(res.json);
+                if (!res.ok) {
+                    throw new Error("Server error");
+                }
+                return res.json();
+            })
+            .then((data) => {
+                statusDiv.innerHTML = `<p>${data.content}</p><br>-<strong>${data.author}</strong>`;
+            })
+            .catch((err) => {
+                statusDiv.textContent = "Could not load quote.";
+            })
+        })
+    </script>
+</body>
+</html>
